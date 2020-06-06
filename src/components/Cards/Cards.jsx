@@ -1,7 +1,7 @@
 import React from 'react';
 import CountUp from 'react-countup';
 import cx from 'classnames';
-import { Card, CardContent, Typography, Grid, StylesProvider } from '@material-ui/core'
+import { Card, CardContent, Typography, Grid } from '@material-ui/core'
 import styles from './card.module.css';
 const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
     if (!confirmed) {
